@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Safiya</h1>
+    <p>Web Developer | Student | Learner</p>
+    <div class="button-group">
+      <button onclick="scrollToSection('about')">About Me</button>
+      <button onclick="scrollToSection('projects')">Projects</button>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am passionate about web development and love creating beautiful websites using HTML and CSS.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>To-Do List App</li>
+      <li>Simple Calculator</li>
+    </ul>
+  </section>
+
+  <footer>
+    <button class="contact-button">Contact for More Details</button>
+    <p>Contact: shaiksafiya@gmail.com</p>
+  </footer>
+
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

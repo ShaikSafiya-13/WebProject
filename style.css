@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  
+  color: rgb(255, 255, 255);
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.button-group {
+  margin-top: 20px;
+}
+
+.button-group button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  background: white;
+  color: #007bff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-group button:hover {
+  background: #e6e6e6;
+}
+
+.about, .projects {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: #333;
+  color: white;
+  position: relative;
+}
+
+.contact-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background: #218838;
+}
+
+body {
+  background-image: url('https://images.unsplash.com/photo-1522199755839-a2bacb67c546?auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
